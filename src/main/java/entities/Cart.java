@@ -14,7 +14,7 @@ public class Cart {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
-    
+     //testing
     
     @OneToMany(mappedBy = "cart")
     private List<CartItem> cartItems = new ArrayList<>();
